@@ -1,3 +1,15 @@
+/* Logo Styles */
+#logo {
+    height: 40px; /* make the logo bigger or smaller */
+    width: auto;
+}
+
+/* Dark Mode Logo Style (Optional) */
+body.dark #logo {
+    filter: brightness(1.5); /* Makes the logo a bit brighter */
+}
+
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -59,3 +71,100 @@ body {
 /* Hide scrollbar for category nav */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* --- Dark Mode Styles --- */
+body.dark {
+    background-color: #111827; /* gray-900 */
+    color: #d1d5db; /* gray-300 */
+}
+
+/* Header, Nav, Footer */
+body.dark header,
+body.dark #category-nav,
+body.dark footer {
+    background-color: #1f2937; /* gray-800 */
+    border-color: #374151; /* gray-700 */
+}
+
+body.dark h1 { color: #6ee7b7; /* emerald-300 */ }
+body.dark .text-gray-500 { color: #9ca3af; /* gray-400 */ }
+body.dark .text-gray-400 { color: #9ca3af; /* gray-400 */ }
+body.dark .hover\:text-emerald-600:hover { color: #6ee7b7; /* emerald-300 */ }
+
+/* Category & Reset Buttons */
+body.dark .category-btn {
+    background-color: #374151; /* gray-700 */
+    color: #d1d5db; /* gray-300 */
+}
+body.dark .category-btn.active {
+    background-color: #059669; /* emerald-600 */
+    color: #ffffff;
+    font-weight: 600;
+}
+body.dark #reset-btn {
+    background-color: #374151; /* gray-700 */
+    color: #fecaca; /* red-200 */
+    border-color: #991b1b; /* red-800 */
+}
+body.dark #reset-btn:hover { background-color: #4b5563; /* gray-600 */ }
+
+/* Progress Bar */
+body.dark #progress-bar-container .bg-emerald-200 { background-color: #374151; /* gray-700 */ }
+body.dark #progress-bar { background-color: #10b981; /* emerald-500 */ }
+
+/* Adhkar Cards */
+body.dark .adhkar-card {
+    background-color: #1f2937; /* gray-800 */
+    border-color: #047857; /* A slightly lighter border for separation */
+}
+body.dark .adhkar-card .text-emerald-700 { color: #6ee7b7; /* emerald-300 */ }
+body.dark .adhkar-card .text-gray-800 { color: #d1d5db; /* gray-300 */ }
+body.dark .adhkar-card .text-gray-500 { color: #9ca3af; /* gray-400 */ }
+body.dark .adhkar-card .text-gray-700 { color: #d1d5db; /* gray-300 */ }
+body.dark .adhkar-card .hover\:bg-gray-200:hover { background-color: #4b5563; /* gray-600 */ }
+body.dark .adhkar-card .border-gray-200 { border-color: #4b5563; /* gray-600 */ }
+body.dark .adhkar-card .text-emerald-600 { color: #34d399; /* emerald-400 */ }
+body.dark .adhkar-card .hover\:text-emerald-800:hover { color: #6ee7b7; }
+body.dark .adhkar-card .bg-emerald-600 { background-color: #059669; }
+body.dark .adhkar-card .hover\:bg-emerald-700:hover { background-color: #047857; }
+body.dark .adhkar-card .bg-emerald-200 { background-color: #064e3b; }
+body.dark .adhkar-card .text-emerald-800 { color: #a7f3d0; }
+body.dark .count-display { background-color: rgba(255, 255, 255, 0.1); }
+
+
+/* Modals (Virtue, Settings, Progress) */
+body.dark #virtue-modal,
+body.dark #settings-modal,
+body.dark #progress-modal {
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+body.dark #modal-content .text-gray-800,
+body.dark #settings-content .text-gray-800,
+body.dark #progress-content .text-gray-800 {
+    color: #d1d5db; /* gray-300 */
+}
+
+body.dark #modal-content,
+body.dark #settings-content,
+body.dark #progress-content {
+    background-color: #1f2937; /* gray-800 */
+}
+body.dark .text-emerald-800 { color: #6ee7b7; /* emerald-300 */ }
+body.dark .text-gray-700 { color: #d1d5db; /* gray-300 */ }
+body.dark .text-gray-600 { color: #9ca3af; /* gray-400 */ }
+body.dark .bg-gray-200 { background-color: #4b5563; /* gray-600 */ }
+body.dark .hover\:bg-gray-300:hover { background-color: #6b7280; /* gray-500 */ }
+
+/* Toggle Switches in Settings */
+body.dark .toggle-label { background-color: #4b5563; /* gray-600 */ }
+body.dark .toggle-checkbox:checked + .toggle-label { background-color: #10B981; /* emerald-500 */ }
+
+/* Calendar in Progress Modal */
+body.dark #progress-content .bg-emerald-100 { background-color: #064e3b; }
+body.dark #progress-content .text-emerald-700 { color: #6ee7b7; }
+body.dark #progress-content .text-emerald-800 { color: #d1fae5; }
+body.dark #calendar-body .today { background-color: #10b981; }
+body.dark #calendar-body .today span { color: #111827; }
+
+
