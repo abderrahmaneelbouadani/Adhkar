@@ -10,7 +10,7 @@ const staticAdhkarData = {
                 transliteration: "Allahu la ilaha illa Huwa, Al-Hayyul-Qayyum. La ta'khudhuhu sinatun wa la nawm. Lahu ma fis-samawati wa ma fil-'ard. Man dhal-ladhi yashfa'u 'indahu illa bi-idhnihi. Ya'lamu ma bayna aydihim wa ma khalfahum. Wa la yuhituna bi shay'in min 'ilmihi illa bima sha'. Wasi'a kursiyyuhus-samawati wal-'ard. Wa la ya'uduhu hifdhuhuma. Wa Huwal-'Aliyyul-'Adheem.",
                 translation: "Ayat al-Kursi [Al-Baqarah: 255]",
                 count: 1, read: 0,
-                virtue_ar: "من قالها حين يصبح أجير من الجن حتى يمسي، ومن قالها حين يمسي أجير منهم حتى يصبح.",
+                virtue_ar: "من قالها حين يصبح أجير من الجن حتى يمسي، ومن قالها حين يمsi أجير منهم حتى يصبح.",
                 virtue_en: "Whoever recites this in the morning will be protected from the jinn until the evening, and whoever recites it in the evening will be protected from them until the morning. [Al-Hakim]"
             },
             {
@@ -140,7 +140,7 @@ const staticAdhkarData = {
             {
                 id: 'e2',
                 isComplex: true,
-                parts: [ { title_ar: "سورة الإخلاص:", arabic: "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ", title_en: "Surah Al-Ikhlas:", transliteration: "Qul huwa Allahu ahad. Allahu assamad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ahad." }, { title_ar: "سورة الفلق:", arabic: "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِن شَرِّ مَا ਖَلَقَ ۝ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ", title_en: "Surah Al-Falaq:", transliteration: "Qul a'udhu birabbi alfalaq. Min sharri ma khalaq. Wa min sharri ghasiqin idha waqab. Wa min sharri annaffathati fee al'uqad. Wa min sharri hasidin idha hasad." }, { title_ar: "سورة الناس:", arabic: "قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّASِ ۝ إِلَٰهِ النَّاسِ ۝ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۝ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ", title_en: "Surah An-Nas:", transliteration: "Qul a'udhu birabbi annas. Maliki annas. Ilahi annas. Min sharri alwaswasi alkhannas. Alladhee yuwaswisu fee sudoori annas. Mina aljinnati wannas." } ],
+                parts: [ { title_ar: "سورة الإخلاص:", arabic: "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ", title_en: "Surah Al-Ikhlas:", transliteration: "Qul huwa Allahu ahad. Allahu assamad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ahad." }, { title_ar: "سورة الفلق:", arabic: "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِن شَرِّ مَا خَلَقَ ۝ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ", title_en: "Surah Al-Falaq:", transliteration: "Qul a'udhu birabbi alfalaq. Min sharri ma khalaq. Wa min sharri ghasiqin idha waqab. Wa min sharri annaffathati fee al'uqad. Wa min sharri hasidin idha hasad." }, { title_ar: "سورة الناس:", arabic: "قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَٰهِ النَّاسِ ۝ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۝ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ", title_en: "Surah An-Nas:", transliteration: "Qul a'udhu birabbi annas. Maliki annas. Ilahi annas. Min sharri alwaswasi alkhannas. Alladhee yuwaswisu fee sudoori annas. Mina aljinnati wannas." } ],
                 translation: "The three chapters of protection (Al-Mu'awwidhat).",
                 count: 3, read: 0,
                 virtue_ar: "قال رسول الله صلى الله عليه وسلم: 'قل هو الله أحد والمعوذتين حين تمسي وحين تصبح ثلاث مرات تكفيك من كل شيء.'",
@@ -193,7 +193,7 @@ const staticAdhkarData = {
             },
             {
                 id: 'e8',
-                arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْzِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+                arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
                 transliteration: "Allahumma inni a'udhu bika minal-hammi wal-hazan, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dayn, wa ghalabatir-rijal.",
                 translation: "O Allah, I seek refuge in You from anxiety and sorrow, weakness and laziness, miserliness and cowardice, the burden of debts and from being overpowered by men.",
                 count: 1, read: 0,
@@ -206,7 +206,7 @@ const staticAdhkarData = {
                 transliteration: "Allahumma Anta Rabbi la ilaha illa Anta, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't, a'udhu bika min sharri ma sana't, abu'u laka bini'matika 'alayya, wa abu'u laka bidhanbi faghfirli fa'innahu la yaghfirudh-dhunuba illa Anta.",
                 translation: "The Master of seeking forgiveness (Sayyid al-Istighfar).",
                 count: 1, read: 0,
-                virtue_ar: "قال صلى الله عليه وسلم: 'من قale موقناً به حين يمسي فمات من ليلته دخل الجنة، ومن قاله موقناً به حين يصبح فمات من يومه دخل الجنة.'",
+                virtue_ar: "قال صلى الله عليه وسلم: 'من قاله موقناً به حين يمسي فمات من ليلته دخل الجنة، ومن قاله موقناً به حين يصبح فمات من يومه دخل الجنة.'",
                 virtue_en: "The Prophet (ﷺ) said: 'Whoever says it during the day with firm faith in it and dies on that day before the evening, he will be from the people of Paradise; and whoever says it in the night with firm faith in it and dies before the morning, he will be from the people of Paradise.' [Bukhari]"
             },
              {
@@ -237,32 +237,42 @@ const staticAdhkarData = {
                 id: 'as1',
                 arabic: "أَسْتَغْفِرُ اللَّهَ (ثلاثاً) اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
                 transliteration: "Astaghfirullah (3 times). Allahumma Antas-Salam wa minkas-salam, tabarakta ya Dhal-Jalali wal-Ikram.",
-                translation: "I seek the forgiveness of Allah (three times). O Allah, You are Peace and from You comes peace. Blessed are You, O Owner of majesty and honor."
-            },
-            {
+                translation: "I seek the forgiveness of Allah (three times). O Allah, You are Peace and from You comes peace. Blessed are You, O Owner of majesty and honor.",
+                virtue_ar: "عَنْ ثَوْبَانَ قَالَ: كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا انْصَرَفَ مِنْ صَلاَتِهِ اسْتَغْفَرَ ثَلاَثًا وَقَالَ ‏\"‏ اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ تَبَارَكْتَ ذَا الْجَلاَلِ وَالإِكْرَامِ ‏\"‏",
+                virtue_en: "It was narrated that Thawban said: 'Whenever the Messenger of Allah (ﷺ) finished his prayer, he would seek forgiveness three times and say: 'Allahumma Antas-Salam...' (the full supplication). [Muslim]"
+             },
+             {
                 id: 'as2',
                 arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ، وَلَا مُعْطِيَ لِمَا مَنَعْتَ، وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ",
                 transliteration: "La ilaha illallah wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa 'ala kulli shay'in qadir. Allahumma la mani'a lima a'tayt, wa la mu'tiya lima mana't, wa la yanfa'u dhal-jaddi minkal-jadd.",
-                translation: "There is none worthy of worship but Allah alone, Who has no partner, His is the dominion and to Him belongs all praise, and He is able to do all things. O Allah, none can withhold what You have given and none can give what You have withheld, and the might of the mighty person cannot benefit him against You."
-            },
-            {
+                translation: "There is none worthy of worship but Allah alone, Who has no partner, His is the dominion and to Him belongs all praise, and He is able to do all things. O Allah, none can withhold what You have given and none can give what You have withheld, and the might of the mighty person cannot benefit him against You.",
+                virtue_ar: "عَنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَقُولُ فِي دُبُرِ كُلِّ صَلاَةٍ إِذَا سَلَّمَ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ...\"‏.‏",
+                virtue_en: "Al-Mughira bin Shu’ba wrote to Mu’awiya: When the Messenger of Allah (ﷺ) finished the prayer and said the taslim, he would say: (the above dhikr). [Bukhari, Muslim]"
+             },
+             {
                 id: 'as3',
                 arabic: "سُبْحَانَ اللَّهِ (33 مرة) الْحَمْدُ لِلَّهِ (33 مرة) اللَّهُ أَكْبَرُ (33 مرة) ثُمَّ يَقُولُ تَمَامَ الْمِائَةِ: لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
                 transliteration: "SubhanAllah (33 times), Alhamdulillah (33 times), Allahu Akbar (33 times), then complete the hundred with: La ilaha illallah wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa 'ala kulli shay'in qadir.",
-                translation: "Glory is to Allah (33 times), Praise is to Allah (33 times), Allah is the Most Great (33 times), then complete the hundred with: There is none worthy of worship but Allah alone, Who has no partner, His is the dominion and to Him belongs all praise, and He is able to do all things."
-            },
+                translation: "Glory is to Allah (33 times), Praise is to Allah (33 times), Allah is the Most Great (33 times), then complete the hundred with: There is none worthy of worship but Allah alone, Who has no partner, His is the dominion and to Him belongs all praise, and He is able to do all things.",
+                virtue_ar: "عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ سَبَّحَ اللَّهَ فِي دُبُرِ كُلِّ صَلاَةٍ ثَلاَثًا وَثَلاَثِينَ... غُفِرَتْ خَطَايَاهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ ‏\"‏ ‏.‏",
+                virtue_en: "The Messenger of Allah (ﷺ) said: 'Whoever glorifies Allah (says SubhanAllah) thirty-three times immediately after each prayer... his sins will be forgiven even if they are like the foam of the sea.' [Muslim]"
+             },
              {
                 id: 'as4',
                 arabic: "آيَةُ الْكُرْسِيِّ: اللَّهُ لَا إِلَـٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ...",
                 transliteration: "Ayat al-Kursi: Allahu la ilaha illa Huwa...",
-                translation: "Recitation of Ayat al-Kursi. Whoever recites it after each prayer, nothing will be between him and Paradise except death. [An-Nasa'i]"
-            },
+                translation: "Recitation of Ayat al-Kursi [Al-Baqarah: 255].",
+                virtue_ar: "مَنْ قَرَأَ آيَةَ الْكُرْسِيِّ دُبُرَ كُلِّ صَلَاةٍ مَكْتُوبَةٍ لَمْ يَمْنَعْهُ مِنْ دُخُولِ الْجَنَّةِ إِلَّا أَنْ يَمُوتَ.",
+                virtue_en: "Whoever recites Ayat al-Kursi after each prescribed prayer, nothing will be between him and Paradise except death. [An-Nasa'i]"
+             },
              {
                 id: 'as5',
                 arabic: "سورة الإخلاص، سورة الفلق، سورة الناس (بعد كل صلاة)",
                 transliteration: "Surah Al-Ikhlas, Surah Al-Falaq, Surah An-Nas (After every prayer).",
-                translation: "Recitation of Surah Al-Ikhlas, Al-Falaq, and An-Nas."
-            }
+                translation: "Recitation of Surah Al-Ikhlas, Al-Falaq, and An-Nas.",
+                virtue_ar: "أَمَرَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ أَقْرَأَ الْمُعَوِّذَاتِ دُبُرَ كُلِّ صَلاَةٍ.",
+                virtue_en: "The Messenger of Allah (ﷺ) commanded to recite Al-Mu'awwidhat (Surah Al-Ikhlas, Al-Falaq, and An-Nas) after every prayer. [Abu Dawud, Tirmidhi]"
+             }
         ]
     },
     rabbana: {
@@ -273,32 +283,42 @@ const staticAdhkarData = {
                 id: 'rb1',
                 arabic: "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
                 transliteration: "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan waqina 'adhaban-nar.",
-                translation: "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire. [Al-Baqarah: 201]"
-            },
-            {
+                translation: "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire. [Al-Baqarah: 201]",
+                virtue_ar: "عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ كَانَ أَكْثَرُ دُعَاءِ النَّبِيِّ صلى الله عليه وسلم ‏ \"‏ اللَّهُمَّ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً، وَفِي الآخِرَةِ حَسَنَةً، وَقِنَا عَذَابَ النَّارِ ‏\"‏‏.‏",
+                virtue_en: "Anas (May Allah be pleased with him) reported: The most frequent invocation of The Prophet (ﷺ) was this supplication. [Bukhari and Muslim]."
+             },
+             {
                 id: 'rb2',
                 arabic: "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ الْوَهَّابُ",
                 transliteration: "Rabbana la tuzigh quloobana ba'da idh hadaytana wa hab lana min ladunka rahmah, innaka Antal-Wahhab.",
-                translation: "Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower. [Aal-Imran: 8]"
-            },
+                translation: "Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower. [Aal-Imran: 8]",
+                virtue_ar: "هذا دعاء 'أُولُو الْأَلْبَابِ' المذكور في القرآن، يسألون الله أن يثبت قلوبهم على الهداية. [تفسير ابن كثير]",
+                virtue_en: "This is the supplication of 'those of understanding' (Ulul-Albab) mentioned in the Qur'an, who ask Allah to keep their hearts firm upon guidance. [Tafsir Ibn Kathir]"
+             },
              {
                 id: 'rb3',
                 arabic: "رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
                 transliteration: "Rabbana-ghfir lana dhunoobana wa israfana fi amrina wa thabbit aqdamana wansurna 'alal-qawmil-kafirin.",
-                translation: "Our Lord, forgive us our sins and the excess [committed] in our affairs and plant firmly our feet and give us victory over the disbelieving people. [Aal-Imran: 147]"
-            },
-            {
+                translation: "Our Lord, forgive us our sins and the excess [committed] in our affairs and plant firmly our feet and give us victory over the disbelieving people. [Aal-Imran: 147]",
+                virtue_ar: "يخبر تعالى عن عباده المؤمنين الذين قاتلوا مع الأنبياء، أنهم دعوا بهذا الدعاء الذي يجمع بين طلب المغفرة والثبات والنصر على الأعداء. [تفسير السعدي]",
+                virtue_en: "The Qur'an mentions this as the supplication of the patient followers of past prophets who, despite facing hardships, asked Allah for forgiveness, steadfastness, and victory. [Tafsir As-Sa'di]"
+             },
+             {
                 id: 'rb4',
                 arabic: "رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
                 transliteration: "Rabbana zalamna anfusana wa-in lam taghfir lana wa tarhamna lanakoonanna minal-khasireen.",
-                translation: "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers. [Al-A'raf: 23]"
-            },
-            {
+                translation: "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers. [Al-A'raf: 23]",
+                virtue_ar: "هذه كلمات التوبة التي تلقاها آدم عليه السلام وزوجه من ربهما بعد أن أكلا من الشجرة. وهو دعاء عظيم لمن ظلم نفسه ويرجو مغفرة الله. [تفسير الطبري]",
+                virtue_en: "These are the words of repentance that Adam (peace be upon him) and his wife received from their Lord after they had erred. It is a powerful supplication for anyone who has wronged themselves and seeks Allah's forgiveness. [Tafsir Al-Tabari]"
+             },
+             {
                 id: 'rb5',
                 arabic: "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
                 transliteration: "Rabbana hab lana min azwajina wa dhurriyatina qurrata a'yunin waj'alna lil-muttaqina imama.",
-                translation: "Our Lord, grant us from among our wives and offspring comfort to our eyes and make us a leader for the righteous. [Al-Furqan: 74]"
-            }
+                translation: "Our Lord, grant us from among our wives and offspring comfort to our eyes and make us a leader for the righteous. [Al-Furqan: 74]",
+                virtue_ar: "هذا الدعاء من صفات 'عباد الرحمن' المذكورة في سورة الفرقان، حيث يسألون الله صلاح أزواجهم وذرياتهم، وأن يجعلهم قدوة للمتقين. [تفسير ابن كثير]",
+                virtue_en: "This is one of the supplications made by the 'Servants of the Most Merciful' (Ibad-ur-Rahman) described in Surah Al-Furqan. They ask Allah for righteousness not only for themselves but also for their families, aspiring to be leaders for the pious. [Tafsir Ibn Kathir]"
+             }
         ]
     },
     forgiveness: {
@@ -309,19 +329,25 @@ const staticAdhkarData = {
                 id: 'f1',
                 arabic: "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيَّ الْقَيُّومَ وَأَتُوبُ إِلَيْهِ",
                 transliteration: "Astaghfirullahal-'Adheemal-ladhi la ilaha illa Huwal-Hayyul-Qayyum wa atubu ilaih.",
-                translation: "I seek the forgiveness of Allah the Mighty, Whom there is none worthy of worship except Him, the Living, the Eternal, and I repent unto Him."
+                translation: "I seek the forgiveness of Allah the Mighty, Whom there is none worthy of worship except Him, the Living, the Eternal, and I repent unto Him.",
+                virtue_ar: "قال رسول الله صلى الله عليه وسلم: 'من قال: أستغفر الله الذي لا إله إلا هو الحي القيوم وأتوب إليه، غفر له وإن كان فر من الزحف'.",
+                virtue_en: "The Messenger of Allah (ﷺ) said: 'Whoever says (the above supplication), his sins will be forgiven even if he had fled from the battlefield.' [Abu Dawud, Tirmidhi]"
             },
-             {
+            {
                 id: 'f2',
                 arabic: "اللَّهُمَّ أَنْتَ رَبِّي، لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
                 transliteration: "Allahumma Anta Rabbi, la ilaha illa Anta, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't, a'udhu bika min sharri ma sana't, abu'u laka bini'matika 'alayya, wa abu'u laka bidhanbi faghfirli fa'innahu la yaghfirudh-dhunuba illa Anta.",
-                translation: "The Master of seeking forgiveness (Sayyid al-Istighfar)."
+                translation: "The Master of seeking forgiveness (Sayyid al-Istighfar).",
+                virtue_ar: "قال صلى الله عليه وسلم: 'من قاله موقناً به حين يمسي فمات من ليلته دخل الجنة، ومن قاله موقناً به حين يصبح فمات من يومه دخل الجنة.'",
+                virtue_en: "The Prophet (ﷺ) said: 'Whoever says it during the day with firm faith in it and dies on that day before the evening, he will be from the people of Paradise; and whoever says it in the night with firm faith in it and dies before the morning, he will be from the people of Paradise.' [Bukhari]"
             },
             {
                 id: 'f3',
                 arabic: "اللَّهُمَّ اغْفِرْ لِي خَطِيئَتِي وَجَهْلِي، وَإِسْرَافِي فِي أَمْرِي، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي",
                 transliteration: "Allahumma-ghfir li khati'ati wa jahli, wa israfi fi amri, wa ma Anta a'lamu bihi minni.",
-                translation: "O Allah, forgive me my sins and my ignorance, my excesses in my affairs, and whatever You know better than I."
+                translation: "O Allah, forgive me my sins and my ignorance, my excesses in my affairs, and whatever You know better than I.",
+                virtue_ar: "عَنْ أَبِي مُوسَى الأَشْعَرِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ كَانَ يَدْعُو بِهَذَا الدُّعَاءِ. وهو دعاء شامل للمغفرة يعترف فيه العبد بخطئه وجهله وإسرافه.",
+                virtue_en: "Abu Musa Al-Ash'ari reported that the Prophet (ﷺ) used to supplicate with these words. This is a comprehensive supplication for forgiveness, acknowledging one's faults, ignorance, and excesses. [Bukhari, Muslim]"
             }
         ]
     }
@@ -346,15 +372,15 @@ function saveProgress() {
 function loadProgress() {
     const savedProgress = localStorage.getItem('adhkarProgress');
      if (savedProgress) {
-         adhkarData = JSON.parse(savedProgress);
-         // Ensure all categories exist from static data if not in saved data
-         Object.keys(staticAdhkarData).forEach(key => {
-             if (!adhkarData[key]) {
-                 adhkarData[key] = JSON.parse(JSON.stringify(staticAdhkarData[key]));
-             }
-         });
+          adhkarData = JSON.parse(savedProgress);
+          // Ensure all categories exist from static data if not in saved data
+          Object.keys(staticAdhkarData).forEach(key => {
+              if (!adhkarData[key]) {
+                  adhkarData[key] = JSON.parse(JSON.stringify(staticAdhkarData[key]));
+              }
+          });
      } else {
-         adhkarData = JSON.parse(JSON.stringify(staticAdhkarData));
+          adhkarData = JSON.parse(JSON.stringify(staticAdhkarData));
      }
 }
 
@@ -413,7 +439,7 @@ function renderAdhkar(category) {
     
     adhkarList.forEach(dhikr => {
         const card = document.createElement('div');
-        card.className = 'bg-white p-6 rounded-lg shadow-md border-l-4 border-emerald-500 fade-in';
+        card.className = 'bg-white p-6 rounded-lg shadow-md border-l-4 border-emerald-500 fade-in adhkar-card';
         
         const readCount = dhikr.read || 0;
         const isCompleted = dhikr.count && (readCount >= dhikr.count);
@@ -433,8 +459,9 @@ function renderAdhkar(category) {
             `;
         }
 
-        card.innerHTML = `
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
+        // <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2"></div> 
+        card.innerHTML = ` 
+            <div class="flex flex-row justify-between items-center mb-4 gap-2">
                 <p class="text-emerald-700 font-bold text-lg">${dhikr.count ? `Repeat: ${dhikr.count}x` : ''}</p>
                 <div class="flex items-center gap-2">
                     ${(dhikr.virtue_ar && dhikr.virtue_en) ? `
@@ -611,9 +638,9 @@ function handleCopyClick(e) {
         navigator.clipboard.writeText(textToCopy).then(() => {
             const buttonSpan = button.querySelector('span');
             if (buttonSpan) {
-                  const originalText = buttonSpan.textContent;
-                  buttonSpan.textContent = 'Copied!';
-                  setTimeout(() => { buttonSpan.textContent = originalText; }, 2000);
+                 const originalText = buttonSpan.textContent;
+                 buttonSpan.textContent = 'Copied!';
+                 setTimeout(() => { buttonSpan.textContent = originalText; }, 2000);
             }
         }).catch(err => console.error('Failed to copy text: ', err));
     }
@@ -783,4 +810,33 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCalendarDate.setMonth(currentCalendarDate.getMonth() + 1);
         renderCalendar(currentCalendarDate);
     });
+    
+
+    const applyTheme = (theme) => {
+    const isDarkMode = theme === 'dark';
+    document.body.classList.toggle('dark', isDarkMode);
+
+    // This line syncs the toggle switch in the settings modal
+    document.getElementById('toggle-dark-mode').checked = isDarkMode;
+};
+
+
+    // Apply saved theme on initial load
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        applyTheme(savedTheme);
+    }
+
+
+     document.getElementById('toggle-dark-mode').addEventListener('change', (e) => {
+        const newTheme = e.target.checked ? 'dark' : 'light';
+        localStorage.setItem('theme', newTheme);
+        applyTheme(newTheme);
+    });
+
+
+
 });
+
+
+
